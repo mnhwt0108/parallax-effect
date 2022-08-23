@@ -1,24 +1,35 @@
 import "./App.css";
+import React, { useEffect, useRef } from "react";
 import Navbar from "./components/Navbar";
 
 function App() {
-  let stars = document.getElementById("stars");
-  let moon = document.getElementById("moon");
-  let mountains_behind = document.getElementById("mountains_behind");
-  let mountains_front = document.getElementById("mountains_front");
-  let text = document.getElementById("text");
-  let btn = document.getElementById("btn");
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      let value = window.scrollY;
+      if (
+        document.getElementById("stars") &&
+        document.getElementById("moon") &&
+        document.getElementById("mountains_behind") &&
+        document.getElementById("mountains_front") &&
+        document.getElementById("text") &&
+        document.getElementById("btn")
+      ) {
+        document.getElementById("stars").style.left = value * 0.25 + "px";
+        document.getElementById("moon").style.top = value * 1.05 + "px";
+        document.getElementById("mountains_behind").style.top =
+          value * 0.5 + "px";
+        document.getElementById("mountains_front").style.top =
+          value * 0.5 + "px";
+        document.getElementById("text").style.marginRight = value * 2 + "px";
+        document.getElementById("text").style.marginTop = value * 1.5 + "px";
+        document.getElementById("btn").style.marginTop = value * 1.5 + "px";
+      }
+    });
 
-  window.addEventListener("scroll", function () {
-    let value = window.scrollY;
-    stars.style.left = value * 0.25 + "px";
-    moon.style.top = value * 1.05 + "px";
-    mountains_behind.style.top = value * 0.5 + "px";
-    mountains_front.style.top = value * 0.5 + "px";
-    text.style.marginRight = value * 3.5 + "px";
-    text.style.marginTop = value * 1.5 + "px";
-    btn.style.marginTop = value * 1.5 + "px";
-  });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
 
   return (
     <div className="App">
