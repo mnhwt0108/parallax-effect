@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/parallax-effect/static/css/main.bd0bcd94.css",
+    "main.css": "/parallax-effect/static/css/main.e8169e36.css",
     "main.js": "/parallax-effect/static/js/main.9d0a176c.js",
     "static/media/mountains_front.png": "/parallax-effect/static/media/mountains_front.25a10186b8e276488f43.png",
     "static/media/mountains_behind.png": "/parallax-effect/static/media/mountains_behind.38e14b5c40238f9f4c60.png",
     "static/media/stars.png": "/parallax-effect/static/media/stars.fb95e3d1302794752cfa.png",
     "static/media/moon.png": "/parallax-effect/static/media/moon.ab81903c55e2dd21511b.png",
     "index.html": "/parallax-effect/index.html",
-    "main.bd0bcd94.css.map": "/parallax-effect/static/css/main.bd0bcd94.css.map",
+    "main.e8169e36.css.map": "/parallax-effect/static/css/main.e8169e36.css.map",
     "main.9d0a176c.js.map": "/parallax-effect/static/js/main.9d0a176c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd0bcd94.css",
+    "static/css/main.e8169e36.css",
     "static/js/main.9d0a176c.js"
   ]
 }
