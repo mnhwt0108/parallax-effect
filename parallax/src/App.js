@@ -15,7 +15,7 @@ function App() {
     moon.style.top = value * 1.05 + "px";
     mountains_behind.style.top = value * 0.5 + "px";
     mountains_front.style.top = value * 0.5 + "px";
-    text.style.marginRight = value * 2 + "px";
+    text.style.marginRight = value * 3.5 + "px";
     text.style.marginTop = value * 1.5 + "px";
     btn.style.marginTop = value * 1.5 + "px";
   });
@@ -89,43 +89,7 @@ function App() {
           magna adipisicing duis culpa tempor. Consectetur mollit sit ipsum sit
           consequat fugiat. Velit nostrud voluptate veniam anim excepteur magna
           enim incididunt nostrud incididunt cillum ad nisi. Fugiat voluptate do
-          pariatur incididunt in sunt irure qui. <br /> <br /> Consequat fugiat
-          nostrud officia et. Nostrud Lorem labore esse ut occaecat sunt.
-          Deserunt Lorem velit in consectetur. Velit cupidatat sunt tempor
-          eiusmod Lorem cupidatat. Dolor exercitation consequat irure
-          consectetur irure nostrud duis officia fugiat. Amet cillum adipisicing
-          excepteur culpa velit adipisicing pariatur excepteur consectetur
-          labore cupidatat fugiat pariatur. Excepteur exercitation pariatur aute
-          ullamco cillum ex in. Enim sunt dolor reprehenderit ea reprehenderit
-          deserunt cupidatat ullamco est sit eiusmod adipisicing ullamco. Qui
-          duis culpa do dolore sint ipsum incididunt adipisicing non deserunt
-          proident velit. Voluptate exercitation amet magna ea deserunt elit
-          minim nulla. Ullamco adipisicing commodo enim dolor aliqua commodo
-          aute consequat consectetur cupidatat. Commodo nisi aliqua do qui. Sint
-          mollit ea culpa dolor minim aliquip qui magna anim ut quis nostrud
-          cupidatat enim. Commodo occaecat dolor non deserunt ea. <br /> <br />{" "}
-          Ipsum minim minim fugiat ut sunt exercitation deserunt ex elit qui ea.
-          Voluptate esse laborum irure minim sunt ullamco occaecat veniam sint
-          sunt minim anim minim. Sit amet amet et pariatur id minim incididunt
-          ea reprehenderit. Ullamco mollit sint magna adipisicing duis culpa
-          tempor. Consectetur mollit sit ipsum sit consequat fugiat. Velit
-          nostrud voluptate veniam anim excepteur magna enim incididunt nostrud
-          incididunt cillum ad nisi. Fugiat voluptate do pariatur incididunt in
-          sunt irure qui. <br /> <br /> Consequat fugiat nostrud officia et.
-          Nostrud Lorem labore esse ut occaecat sunt. Deserunt Lorem velit in
-          consectetur. Velit cupidatat sunt tempor eiusmod Lorem cupidatat.
-          Dolor exercitation consequat irure consectetur irure nostrud duis
-          officia fugiat. Amet cillum adipisicing excepteur culpa velit
-          adipisicing pariatur excepteur consectetur labore cupidatat fugiat
-          pariatur. Excepteur exercitation pariatur aute ullamco cillum ex in.
-          Enim sunt dolor reprehenderit ea reprehenderit deserunt cupidatat
-          ullamco est sit eiusmod adipisicing ullamco. Qui duis culpa do dolore
-          sint ipsum incididunt adipisicing non deserunt proident velit.
-          Voluptate exercitation amet magna ea deserunt elit minim nulla.
-          Ullamco adipisicing commodo enim dolor aliqua commodo aute consequat
-          consectetur cupidatat. Commodo nisi aliqua do qui. Sint mollit ea
-          culpa dolor minim aliquip qui magna anim ut quis nostrud cupidatat
-          enim. Commodo occaecat dolor non deserunt ea.{" "}
+          pariatur incididunt in sunt irure qui. <br /> <br />
         </p>
       </div>
     </div>
