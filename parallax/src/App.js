@@ -1,7 +1,5 @@
 
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Home from "./pages/Home";
 import Navbar from './components/Navbar';
 
 function App() {
@@ -11,10 +9,10 @@ function App() {
 
       
     <section>
-      <img src={require('./images/stars.png')} id="stars" />
-      <img src={require('./images/moon.png')} id="moon" />
-      <img src={require('./images/mountains_behind.png')} id="mountains_behind" />
-      <img src={require('./images/mountains_front.png')} id="mountains_front" />
+      <img src={require('./images/stars.png')} id="stars" alt='stars' />
+      <img src={require('./images/moon.png')} id="moon" alt='moon' />
+      <img src={require('./images/mountains_behind.png')} id="mountains_behind" alt='mountains_behind' />
+      <img src={require('./images/mountains_front.png')} id="mountains_front" alt='mountains_front' />
     </section>
     </div>
 
