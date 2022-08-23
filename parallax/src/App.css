@@ -14,6 +14,11 @@ body{
   background: linear-gradient(#2b1055, #7597de) ;
 }
 
+.Navbar{
+  z-index: 1000;
+  top: 2.5px;
+}
+
 section{
   position:relative;
   width: 100%;
@@ -28,5 +33,17 @@ section img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
 
+section img#moon{
+  mix-blend-mode: screen;
+}
+
+#text{
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  font-size: 1.5em;
+  z-index: 9;
 }
